@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo -n "Введи ім'я користувача:"                                  
 read username                                                                   
                                                                                 
@@ -28,5 +30,4 @@ groupadd $groupname
 useradd -m -s /bin/bash -g $groupname $username 
 passwd $username                              
                                                                                 
-echo -n "Користувач створений\n"                                                       
- 
+echo -n "Користувач створений\n"                                               
